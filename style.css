@@ -1,0 +1,87 @@
+
+.dp1{
+	float: left;
+}
+.dp2{
+	float: right;
+}
+.anim{
+	display: flex;
+	align-content: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+body{
+	background-image: url(bg.jpg);
+	background-size: cover;
+}
+h1{
+	color: grey;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Secular One', sans-serif;
+}
+h2{
+	color: grey;
+	text-align: center;
+	font-family: 'Secular One', sans-serif;
+}
+.chirag{
+	float: left;
+	margin-left: 9px;
+	font-size: 150%;
+	font-family: 'Philosopher', sans-serif;
+}
+.sourish{
+	float: right;
+	margin-right: 9px;
+	font-size: 150%;
+	font-family: 'Philosopher', sans-serif;
+}
+.temp{
+	text-align: center;
+	font-size: 200%;
+	font-family: 'Bree Serif', serif;
+	margin-top: 10px;
+	
+}
+.cont1{
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	border-right: 2px solid blue;
+	border-bottom: 2px solid blue;
+}
+.cont2{
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	border-bottom: 2px solid blue;
+	border-left: 2px solid blue;
+}
+
+.intro{
+	border: 4px solid purple;
+	float: right;
+	font-family: 'Gabriela', serif;;
+	padding-left: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	color: purple;
+	font-size: 180%
+
+}
+.indv1{
+	margin-bottom: 15px;
+	margin-left: 15px;
+	float: left;
+	font-family: 'Bree Serif', serif;
+	margin-right: 15px;
+}
+
+.alert{
+	margin-top: 10px;
+}
