@@ -1,10 +1,4 @@
 
-.dp1{
-	float: left;
-}
-.dp2{
-	float: right;
-}
 .anim{
 	display: flex;
 	align-content: center;
@@ -13,6 +7,7 @@
 	margin-left: auto;
 	text-align: center;
 }
+
 body{
 	background-image: url(bg.jpg);
 	background-size: cover;
@@ -28,18 +23,6 @@ h2{
 	text-align: center;
 	font-family: 'Secular One', sans-serif;
 }
-.chirag{
-	float: left;
-	margin-left: 9px;
-	font-size: 150%;
-	font-family: 'Philosopher', sans-serif;
-}
-.sourish{
-	float: right;
-	margin-right: 9px;
-	font-size: 150%;
-	font-family: 'Philosopher', sans-serif;
-}
 .temp{
 	text-align: center;
 	font-size: 200%;
@@ -47,25 +30,11 @@ h2{
 	margin-top: 10px;
 	
 }
-.cont1{
-	float: left;
-	margin-left: 5px;
-	margin-top: 5px;
-	border-right: 2px solid blue;
-	border-bottom: 2px solid blue;
-}
-.cont2{
-	float: right;
-	margin-top: 5px;
-	margin-right: 5px;
-	border-bottom: 2px solid blue;
-	border-left: 2px solid blue;
-}
 
 .intro{
 	border: 4px solid purple;
-	float: right;
 	font-family: 'Gabriela', serif;;
+	padding-top: 15px;
 	padding-left: 15px;
 	margin-left: 15px;
 	margin-bottom: 20px;
@@ -75,13 +44,41 @@ h2{
 
 }
 .indv1{
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 	margin-left: 15px;
-	float: left;
 	font-family: 'Bree Serif', serif;
 	margin-right: 15px;
 }
 
-.alert{
-	margin-top: 10px;
+.btn-group{
+	display: inline-block;
+    margin: 5px; /* space between buttons */
+    color: #333; /* text color */
+    font-size: 1.5em;
+    font-family: ‘Georgia’, serif;
+    border-radius: 50px; /* rounded corners */
+    padding: 8px 16px; /* space around text */
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
 }
+
+.cont-icon{
+	background-color: rgb(208, 236, 240);
+}
+
+.hr1{
+	background-color: red;
+	height: 2px;
+}
+
+.contact{
+	color:#333;
+	font-family: 'Gabriela', serif;;
+	font-size: 1.5em;
+}
+
+
+
+
+
